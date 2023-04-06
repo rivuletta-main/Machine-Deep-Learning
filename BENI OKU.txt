@@ -1,0 +1,16 @@
+SOUND SIGNAL CLASSIFICATION USING DEEP LEARNING
+This project consists of 3 main steps:
+
+Step We will prepare our dataset for analysis and extract sound signal features from audio files using Mel-Frequency Cepstral Coefficients(MFCC).
+
+Then we will build a Convolutional Neural Networks (CNN) model and train our model with our dataset.
+
+Finally we predict an audio file's class using our model.
+
+We will use UrbanSound8K Dataset, download Link is here: https://urbansounddataset.weebly.com/download-urbansound8k.html
+
+Dataset folder and this source code should be on same directory..
+
+Don't forget to install librosa library using anaconda promt with the following command line:
+
+conda install -c conda-forge librosa
